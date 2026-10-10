@@ -1,0 +1,150 @@
+[
+  {
+    "device": "R1",
+    "action": "verify",
+    "ok": true,
+    "checks": [
+      {
+        "name": "Expected IP is up/up",
+        "passed": true
+      },
+      {
+        "name": "OSPF FULL neighbor count",
+        "passed": true
+      },
+      {
+        "name": "Reachability -> 10.255.0.3",
+        "passed": true
+      }
+    ],
+    "transport": "ssh"
+  },
+  {
+    "device": "R2",
+    "action": "verify",
+    "ok": true,
+    "checks": [
+      {
+        "name": "Expected IP is up/up",
+        "passed": true
+      },
+      {
+        "name": "OSPF FULL neighbor count",
+        "passed": true
+      },
+      {
+        "name": "Reachability -> 10.255.0.3",
+        "passed": true
+      }
+    ],
+    "transport": "ssh"
+  },
+  {
+    "device": "R3",
+    "action": "verify",
+    "ok": true,
+    "checks": [
+      {
+        "name": "Expected IP is up/up",
+        "passed": true
+      },
+      {
+        "name": "OSPF FULL neighbor count",
+        "passed": true
+      },
+      {
+        "name": "Reachability -> 10.255.0.1",
+        "passed": true
+      }
+    ],
+    "transport": "ssh"
+  },
+  {
+    "device": "SW1",
+    "action": "verify",
+    "ok": true,
+    "checks": [
+      {
+        "name": "Expected IP is up/up",
+        "passed": true
+      },
+      {
+        "name": "VLAN 10 active",
+        "passed": true
+      },
+      {
+        "name": "Trunk forwarding VLAN 10",
+        "passed": true
+      },
+      {
+        "name": "Reachability -> 10.255.0.3",
+        "passed": true
+      }
+    ],
+    "transport": "ssh"
+  },
+  {
+    "device": "SW2",
+    "action": "verify",
+    "ok": true,
+    "checks": [
+      {
+        "name": "Expected IP is up/up",
+        "passed": true
+      },
+      {
+        "name": "VLAN 10 active",
+        "passed": true
+      },
+      {
+        "name": "Trunk forwarding VLAN 10",
+        "passed": true
+      },
+      {
+        "name": "Reachability -> 10.255.0.3",
+        "passed": true
+      }
+    ],
+    "transport": "ssh"
+  },
+  {
+    "device": "PC1",
+    "action": "verify",
+    "ok": true,
+    "checks": [
+      {
+        "name": "PC address and /24 mask",
+        "passed": true
+      },
+      {
+        "name": "PC gateway",
+        "passed": true
+      },
+      {
+        "name": "PC1 -> 10.10.10.1",
+        "passed": true
+      },
+      {
+        "name": "PC1 -> 10.10.10.11",
+        "passed": true
+      },
+      {
+        "name": "PC1 -> 10.10.10.12",
+        "passed": true
+      },
+      {
+        "name": "PC1 -> 10.255.0.1",
+        "passed": true
+      },
+      {
+        "name": "PC1 -> 10.255.0.2",
+        "passed": true
+      },
+      {
+        "name": "PC1 -> 10.255.0.3",
+        "passed": true
+      }
+    ],
+    "transport": "console"
+  }
+]

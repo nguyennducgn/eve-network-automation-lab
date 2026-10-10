@@ -1,0 +1,12 @@
+{
+  "eve_host": "192.168.126.130",
+  "lab": "Network_Automation_6_Nodes",
+  "devices": [
+    {"name": "R1", "port": 32769, "kind": "ios", "role": "router", "ip": "10.255.0.1", "ospf_neighbors": 1},
+    {"name": "R2", "port": 32770, "kind": "ios", "role": "router", "ip": "10.255.0.2", "ospf_neighbors": 2},
+    {"name": "R3", "port": 32771, "kind": "ios", "role": "router", "ip": "10.255.0.3", "ospf_neighbors": 1},
+    {"name": "SW1", "port": 32772, "kind": "ios", "role": "switch", "ip": "10.10.10.11"},
+    {"name": "SW2", "port": 32773, "kind": "ios", "role": "switch", "ip": "10.10.10.12"},
+    {"name": "PC1", "port": 32774, "kind": "vpcs", "role": "client", "ip": "10.10.10.100"}
+  ]
+}

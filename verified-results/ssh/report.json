@@ -1,0 +1,42 @@
+[
+  {
+    "device": "R1",
+    "ok": true,
+    "host": "192.168.126.131",
+    "port": 22,
+    "interface": "Ethernet0/2",
+    "fingerprint": "SHA256:9WdNTihH1PjymY2jjnWilO3xE0awi9phWo9ZKBs+0Ts"
+  },
+  {
+    "device": "R2",
+    "ok": true,
+    "host": "192.168.126.132",
+    "port": 22,
+    "interface": "Ethernet0/2",
+    "fingerprint": "SHA256:oFZEhAxa7T8FrQnc0tDIuclZS56/oUITvI36CqR321s"
+  },
+  {
+    "device": "R3",
+    "ok": true,
+    "host": "192.168.126.133",
+    "port": 22,
+    "interface": "Ethernet0/1",
+    "fingerprint": "SHA256:3BVezr8QyS0HNadzHxhZ9SwhDIr3M6iwGy3RhniaiqQ"
+  },
+  {
+    "device": "SW1",
+    "ok": true,
+    "host": "192.168.126.134",
+    "port": 22,
+    "interface": "Vlan99",
+    "fingerprint": "SHA256:oIUIow+M915CGl6V3b7uGy7nVZgiwAjvb0vPIdooRkw"
+  },
+  {
+    "device": "SW2",
+    "ok": true,
+    "host": "192.168.126.135",
+    "port": 22,
+    "interface": "Vlan99",
+    "fingerprint": "SHA256:zpNIeNYzdcO25C1i9Z9BGOqVdWkM4Bm38rrheYC/DbU"
+  }
+]
